@@ -36,9 +36,6 @@ This project implements a comprehensive sentiment analysis system capable of det
 
 
 ## Working Prototype:
-## Working Prototype:
-
-## Working Prototype:
 
 ![Single Text Analysis](images/screenshot1.png)
 ![Model Comparison](images/screenshot2.png)
