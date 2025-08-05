@@ -35,6 +35,27 @@ This project implements a comprehensive sentiment analysis system capable of det
 3. **Notebooks**: Explore `notebooks/` for detailed analysis
 
 
+## Working Prototype:
+
+![Single Text Analysis](images/screenshot1.png)
+![Model Comparison](images/screenshot2.png)
+![Sentiment Probabilities](images/screenshot3.png)
+
+
+## Model Performance
+The project compares multiple approaches:
+- Traditional ML (Logistic Regression, Gradiant Boosing, Random Forest)
+- Feature extraction methods (BoW, TF-IDF, Word2Vec)
+- Comprehensive evaluation metrics
+
+## Technologies Used
+- **Python**: Core programming language
+- **scikit-learn**: Machine learning framework
+- **NLTK**: Natural language processing
+- **Gensim**: Word embeddings
+- **Streamlit**: Web interface
+- **Matplotlib/Seaborn**: Visualization 
+
 ## Project Structure
 ```
 sentiment_analysis/
@@ -52,18 +73,3 @@ sentiment_analysis/
 ├── train_model.py         # Model training script
 └── requirements.txt       # Dependencies
 ```
-
-
-## Model Performance
-The project compares multiple approaches:
-- Traditional ML (Naive Bayes, SVM, Logistic Regression)
-- Feature extraction methods (BoW, TF-IDF, Word2Vec)
-- Comprehensive evaluation metrics
-
-## Technologies Used
-- **Python**: Core programming language
-- **scikit-learn**: Machine learning framework
-- **NLTK**: Natural language processing
-- **Gensim**: Word embeddings
-- **Streamlit**: Web interface
-- **Matplotlib/Seaborn**: Visualization 
