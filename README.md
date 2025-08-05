@@ -38,9 +38,11 @@ This project implements a comprehensive sentiment analysis system capable of det
 ## Working Prototype:
 ## Working Prototype:
 
-![Single Text Analysis](f:/1)LAKSHYA/DTU%20-%20DELHI%20TECHNOLOGICAL%20UNIVERSITY/Internship/Jyesta%20Intern/Sentiment%20Analysis/images/screenshot1.png)
-![Model Comparison](f:/1)LAKSHYA/DTU%20-%20DELHI%20TECHNOLOGICAL%20UNIVERSITY/Internship/Jyesta%20Intern/Sentiment%20Analysis/images/screenshot2.png)
-![Sentiment Probabilities](f:/1)LAKSHYA/DTU%20-%20DELHI%20TECHNOLOGICAL%20UNIVERSITY/Internship/Jyesta%20Intern/Sentiment%20Analysis/images/screenshot3.png)
+## Working Prototype:
+
+![Single Text Analysis](images/screenshot1.png)
+![Model Comparison](images/screenshot2.png)
+![Sentiment Probabilities](images/screenshot3.png)
 
 
 ## Model Performance
