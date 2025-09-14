@@ -76,6 +76,14 @@ sentiment-analysis-project/
 ### If Streamlit doesn't work:
 1. Try: `python -m streamlit run web_app_simple.py`
 2. Make sure models are trained first: `python train_quick.py`
+3. If deploying to Streamlit Cloud (or Streamlit for Teams) and dependency installation fails on the cloud, use the provided `runtime.txt` and `requirements-deploy.txt` which pin Python 3.11 and omit packages that often require source builds on newer Python versions (for example `wordcloud`). Push both files to the repository root and redeploy.
+
+Deployment quick steps (Streamlit Cloud):
+
+1. Add `runtime.txt` with `python-3.11` at repo root (already included).
+2. Add `requirements-deploy.txt` at repo root (already included).
+3. In the Streamlit Cloud app settings, set the requirements file to `requirements-deploy.txt` (or rename it to `requirements.txt` if preferred).
+4. Redeploy. If a package still fails to build, remove it from `requirements-deploy.txt` or pin to a compatible wheel-supporting version.
 
 ### If models don't load:
 1. Run the training script: `python train_quick.py`
